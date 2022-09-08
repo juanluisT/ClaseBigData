@@ -3,9 +3,9 @@
 //2. Desarrollar un algoritmo en scala que me diga si un numero es primo
 var num = 5
 if (num % 2 == 0) {
-var primo =  printf("No es número primo")
+printf("No es número primo")
 } else {
-var primo = printf("Si es número primo")
+printf("Si es número primo")
 }
 /******************************************************/
 
