@@ -14,7 +14,7 @@ val birdy = s"Estoy ecribiendo un ${bird}"
      //"val es constante"
 /******************/
 
-# Practice 4 
+# Practice 4 "Edgar C." 
 // 1. Crea una lista llamada "lista" con los elementos "rojo", "blanco", "negro"
 val lista = collection.mutable.Set("rojo", "blanco", "negro")
 lista.toSet
