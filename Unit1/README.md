@@ -1,25 +1,35 @@
 # ClaseBigData
 
 
+#  ************************* Practice 2 "Edgar C."  *************************
+
+1. Crear un repositorio con el nombre ClaseBigData
+2. No creear el archivo README.md
+3. Seguir las intrucciones de Github
+4. Crear una rama llamada develop o development
+5. Generar esta rama por default en Github
+6. Crear una rama llamada Unit1
+7. Agragar colaboradores para trabajar en equipo
+8. Cada integrante generar algun cambio en el Archivo REDME.md y hacer todo el gitflow
+9. Mostrar al profe la estructura de su repositorio.
 
 
 
 
-# Practice 2 "Edgar C." 
 
 
 
 
 
-#practice #3
-#1. Desarrollar un algoritmo en scala que calcule el radio de un circulo
+# *****************practice #3 *************************
+# 1. Desarrollar un algoritmo en scala que calcule el radio de un circulo
 var radio = "el radio de 2 es "+ 2 * Math.PI*3
 
-//1. Desarrollar un algoritmo en scala que calcule el radio de un circulo
+# 1. Desarrollar un algoritmo en scala que calcule el radio de un circulo
 var radio = "el radio de 2 es "+ 2 * Math.PI*3
-/******************/
 
-#//2. Desarrollar un algoritmo en scala que me diga si un numero es primo
+
+# 2. Desarrollar un algoritmo en scala que me diga si un numero es primo
 var num = 5
 if (num % 2 == 0) {
 printf("No es número primo")
@@ -27,31 +37,53 @@ printf("No es número primo")
 printf("Si es número primo")
 }
 
-##//3. Dada la variable bird = "tweet", utiliza interpolacion de string para
-#//   imprimir "Estoy ecribiendo un tweet"
+# 3. Dada la variable bird = "tweet", utiliza interpolacion de string para
+#   imprimir "Estoy ecribiendo un tweet"
 val bird = "tweet"
 val birdy = s"Estoy ecribiendo un ${bird}"
 
 
-#//4. Dada la variable mensaje = "Hola Luke yo soy tu padre!" utiliza slilce para extraer la
-#//   secuencia "Luke"
+# 4. Dada la variable mensaje = "Hola Luke yo soy tu padre!" utiliza slilce para extraer la
+#   secuencia "Luke"
 val Luk = "Hola Luke yo soy tu padre!"
-#//Luk.slice (5,9)
+# Luk.slice (5,9)
 
-#//5. Cual es la diferencia entre value y una variable en scala?
-     //"var se puede modificar"
-     //"val es constante"
+# 5. Cual es la diferencia entre value y una variable en scala?
+     "var se puede modificar"
+     "val es constante"
 
-#//6. Dada la tupla (2,4,5,1,2,3,3.1416,23) regresa el numero 3.1416 
+# 6. Dada la tupla (2,4,5,1,2,3,3.1416,23) regresa el numero 3.1416 
 val my_tup = (2,4,5,1,2,3,3.1416,23)
-#//my_tup._7
+#  my_tup._7
+
+# 3. Dada la variable bird = "tweet", utiliza interpolacion de string para
+#   imprimir "Estoy ecribiendo un tweet"
+val bird = "tweet"
+val birdy = s"Estoy ecribiendo un ${bird}"
+
+
+# 4. Dada la variable mensaje = "Hola Luke yo soy tu padre!" utiliza slilce para extraer la
+#   secuencia "Luke"
+val Luk = "Hola Luke yo soy tu padre!"
+# Luk.slice (5,9)
+
+# 5. Cual es la diferencia entre value y una variable en scala?
+     "var se puede modificar"
+     "val es constante"
+
+# 6. Dada la tupla (2,4,5,1,2,3,3.1416,23) regresa el numero 3.1416 
+val my_tup = (2,4,5,1,2,3,3.1416,23)
+# my_tup._7
 
 
 
 
 
 
-#practice #4
+
+
+
+#  *************************practice #4 *************************
 
 # 1. Crea una lista llamada "lista" con los elementos "rojo", "blanco", "negro"
 
@@ -97,7 +129,7 @@ mutbl.values
 
 
 
-#practice #5
+#  *************************practice #5 *************************
 
  def isEven(num:Int): Boolean = {
      return num%2 == 0
@@ -142,7 +174,7 @@ val af= List(1,7,7) //arbitray data for val 'af'
 println(afortunado(af)) //print function with val 'af'
 
 
-##inicializar funcion balance que regresa un valor verdadero o falso
+# inicializar funcion balance que regresa un valor verdadero o falso
 def balance(list:List[Int]): Boolean={ // inicializar funcion balance que regresa un valor verdadero o falso
     var primera = 0 // inicia variable "primera"
     var segunda = 0 // inicia variable "segunda"
@@ -168,7 +200,7 @@ balance(bl)
 balance(bl2)
 balance(bl3)
 
-## initialize funtion 'palindromo' returns TRUE or FALSE
+# initialize funtion 'palindromo' returns TRUE or FALSE
 def palindromo(palabra:String):Boolean ={ // initialize funtion 'palindromo' returns TRUE or FALSE
     return (palabra == palabra.reverse) // revers string 'palabra'
 }// end funtion 'palindromo'
@@ -184,12 +216,17 @@ println(palindromo(palabra3))//call funtion and the val 'palabra3'
 
 
 
-#practice #6
+
+
+
+
+
+#  ************************* practice #6  *************************
 ##Algoritmo 3 Versión iterativa  (Complejidad {\displaystyle O(n)\,}O(n)\,)
 
  def fibonacci(n: Int): Int = {
    if ( n == 0 ) 0
-   else if ( n == 1 ) 1
+   else if (  == 1 ) 1
    else fibonacci( n-1 ) + fibonacci( n-2 )
  }
  fibonacci(10)
@@ -225,7 +262,11 @@ fib(10)
 
 
 
-# Practice 7 
+
+
+
+
+#  ************************* Practice 7  *************************
 
 // #1MUESTRA LOS DTOS fecha_alta MENORES A 2019-11
 INEGI_df.filter("fecha_alta" < 2019-11).show()
