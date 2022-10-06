@@ -291,5 +291,6 @@ INEGI_df.orderBy("cve_mun").show()
 import org.apache.spark.sql.SparkSession
 
 ``` sh
-import org.apache.spark.sql.SparkSession
+val spark = SparkSession.builder().getOrCreate()
+
 ```
