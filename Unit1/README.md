@@ -16,12 +16,6 @@
 
 
 
-```ssh
-$ git checkout -b <branch_name>
-$ git add . <-a>
-$ git commit -m "branch decription"
-$ git 
-````
 
 
 
