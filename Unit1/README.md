@@ -301,3 +301,9 @@ val df = spark.read.option("header", "true").option("inferSchema","true")csv("Ne
 
 import spark.implicits._
 ```
+
+# 3. ¿Cuáles son los nombres de las columnas? 
+df.columns
+``` sh
+res1: Array[String] = Array(Date, Open, High, Low, Close, Volume, Adj Close)
+```
