@@ -20,7 +20,6 @@
 
 
 
-
 # *****************practice #3 *************************
 # 1. Desarrollar un algoritmo en scala que calcule el radio de un circulo
 var radio = "el radio de 2 es "+ 2 * Math.PI*3
@@ -284,3 +283,27 @@ INEGI_df.groupBy("cod_postal" , "municipio").count().show()
 
 // #6 muestra los datos ordenado porcve_mun (clave municipal)
 INEGI_df.orderBy("cve_mun").show()
+
+
+
+
+# 1. Comienza una simple sesión Spark.
+import org.apache.spark.sql.SparkSession
+
+``` sh
+val spark = SparkSession.builder().getOrCreate()
+
+```
+
+# 2. Cargue el archivo Netflix Stock CSV en dataframe llamado df, haga que Spark infiera los tipos de datos.
+``` sh
+val df = spark.read.option("header", "true").option("inferSchema","true")csv("Netflix_2011_2016.csv")
+
+import spark.implicits._
+```
+
+# 3. ¿Cuáles son los nombres de las columnas? 
+df.columns
+``` sh
+res1: Array[String] = Array(Date, Open, High, Low, Close, Volume, Adj Close)
+```
