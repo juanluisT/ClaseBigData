@@ -283,3 +283,13 @@ INEGI_df.groupBy("cod_postal" , "municipio").count().show()
 
 // #6 muestra los datos ordenado porcve_mun (clave municipal)
 INEGI_df.orderBy("cve_mun").show()
+
+
+
+
+# 1. Comienza una simple sesión Spark.
+import org.apache.spark.sql.SparkSession
+
+``` sh
+import org.apache.spark.sql.SparkSession
+```
