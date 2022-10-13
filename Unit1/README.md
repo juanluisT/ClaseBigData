@@ -348,7 +348,7 @@ val df2 = df.withColumn("HV Ratio", df("High")*df("Volume"))
 df2: org.apache.spark.sql.DataFrame = [Date: timestamp, Open: double ... 6 more fields]
 ```
 
-//#8. ¿Qué día tuvo el pico más alto en la columna “Open”?
+//#8. ¿Qué día tuvo el pico más alto en la columna “Open”?  Juan Luis Tellez
 
 val dfx = df.groupBy("Date").agg(max($"Open"))
 dfx.orderBy($"max(Open)".desc).limit(1).show()
@@ -362,13 +362,13 @@ scala> dfx.orderBy($"max(Open)".desc).limit(1).show()
 
 ``
 //#9. ¿Cuál es el significado de la columna Cerrar “Close” en el contexto de información financiera, 
-// # explíquelo no hay que codificar nada?
+// # explíquelo no hay que codificar nada?  Juan Luis Tellez
 
 ``` sh
 Es el precio del cierre al dia de las acciones de NetFlix
 
 ```
-//#10. ¿Cuál es el máximo y mínimo de la columna “Volumen”?
+//#10. ¿Cuál es el máximo y mínimo de la columna “Volumen”?   Juan Luis Tellez
 df.agg(min("Volume"), max("Volume")).show()
 ``` sh
 scala> df.agg(min("Volume"), max("Volume")).show()
