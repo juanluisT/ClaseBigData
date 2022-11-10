@@ -1,2 +1,0 @@
-# ClaseBigData
-#adding test

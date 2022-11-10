@@ -1,0 +1,286 @@
+2022.09.11 18:17:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1\.metals\lsp.trace.json or C:\Users\Jtellez\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.09.11 18:17:27 INFO  logging to file C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1\.metals\metals.log
+2022.09.11 18:17:27 INFO  Started: Metals version 0.11.8 in workspace 'C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1' for client Visual Studio Code 1.71.0.
+2022.09.11 18:17:30 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.11 18:17:31 INFO  time: initialize in 4.01s
+2022.09.11 18:17:34 WARN  Build server is not auto-connectable.
+2022.09.11 18:17:34 WARN  no build tool detected in workspace 'C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.09.11 18:17:34 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_04.scala
+2022.09.11 18:17:39 INFO  no build target found for C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_04.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.11 18:17:40 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1\practices\practice3Scala.scala
+2022.09.11 18:17:44 INFO  time: code lens generation in 3.39s
+2022.09.11 18:17:44 INFO  time: code lens generation in 9.44s
+2022.09.11 18:17:44 INFO  time: code lens generation in 9.45s
+2022.09.11 18:18:32 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 6:18:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2022.09.11 18:18:33 INFO  time: code lens generation in 1s
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 18:20:02 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 6:23:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 238
+2022.09.11 18:23:29 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:24:26 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 18:25:24 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-3-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-3-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 18:29:37 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 18:32:39 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:33:36 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:33:48 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:34:19 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-3-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-3-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 18:34:37 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:34:38 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:34:40 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:35:13 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:35:13 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:36:12 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:37:26 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:39:07 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:39:07 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:39:26 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 6:39:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1200
+Exception in thread "pool-3-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 18:42:01 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:42:43 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:43:22 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:43:22 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:44:05 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:44:48 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:45:04 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:46:03 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:46:03 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:47:28 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:47:28 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 6:48:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 11, 2022 6:48:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 11, 2022 6:48:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.09.11 18:48:40 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:49:03 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:49:23 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:49:23 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 6:49:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1888
+2022.09.11 18:52:44 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 18:54:13 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 18:54:13 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-12" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-3-thread-13" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 18:56:46 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-14" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-3-thread-15" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-3-thread-16" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-3-thread-17" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-3-thread-18" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 18:59:04 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 6:59:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2286
+2022.09.11 18:59:39 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 7:00:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2320
+2022.09.11 19:00:35 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:01:52 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:01:52 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:09:58 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:10:41 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:11:20 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:11:20 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-19" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 19:12:17 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-20" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 19:14:41 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:15:41 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-21" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 19:15:48 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:15:55 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 7:17:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2902
+Sep 11, 2022 7:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2933
+Sep 11, 2022 7:17:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2934
+2022.09.11 19:17:20 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:17:39 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:17:39 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:18:15 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:18:15 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 7:18:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3020
+2022.09.11 19:19:04 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:19:04 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:19:45 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:20:38 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:26:18 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1\practices\practice3Scala.scala
+2022.09.11 19:26:23 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 7:27:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3230
+Sep 11, 2022 7:27:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3258
+Sep 11, 2022 7:27:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3286
+2022.09.11 19:27:26 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:28:12 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:28:26 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Sep 11, 2022 7:28:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3428
+2022.09.11 19:29:03 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:29:22 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:29:22 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:29:37 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+Exception in thread "pool-3-thread-22" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.09.11 19:30:16 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:31:23 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:32:07 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:32:07 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\BigData\Scala_Basics\Session_03.scala
+2022.09.11 19:32:38 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1\practices\practice1.scala
+2022.09.11 19:32:40 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1\practices\practice3Scala.scala
+2022.09.11 19:34:12 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1\practices\practice1.scala
+2022.09.11 19:34:54 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1\practices\practice4Scala.scala
+2022.09.11 19:34:57 WARN  no build target for: C:\Users\Jtellez\OneDrive - Poly\Documents\4tosemestre\BIGDATA\ClaseBigData\Unit1\practices\practice4Scala.scala
+Sep 11, 2022 7:35:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 11, 2022 7:35:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
