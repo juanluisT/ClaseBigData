@@ -150,6 +150,7 @@ val Array(training, test) = logregbank.randomSplit(Array(0.7, 0.3), seed = 12345
 ```
 training: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] = [label: string, age: int ... 5 more fields]
 test: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] = [label: string, age: int ... 5 more fields]
+```
 
 ///////////////////////////////
 // Configure un Pipeline ///////
