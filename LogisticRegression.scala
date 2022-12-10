@@ -12,7 +12,7 @@ Logger.getLogger("org").setLevel(Level.ERROR)
 
 val spark = SparkSession.builder().getOrCreate()
 
-val data  = spark.read.option("header","true").option("inferSchema", "true").format("csv").option("sep",";").load("data/bank-full.csv")
+val data  = spark.read.option("header","true").option("inferSchema", "true").format("csv").option("sep",";").load("bank.csv")
 
 //Create  numerical "x" column from string "y" column
 val cols = data.select("age","job","marital","education","default","balance","housing","loan","contact","day","month","duration","campaign","pdays","previous","poutcome","y").withColumn("x", when(col("y") === "yes", 1).when(col("y") === "no", 0))
